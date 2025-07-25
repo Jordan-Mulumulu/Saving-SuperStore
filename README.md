@@ -1,4 +1,5 @@
 Saving Superstore: What to Cut and What to Keep
+
 This dashboard takes a close look at Superstore’s return data and profit margins to figure out what’s helping the bottom line — and what’s holding it back. The goal? Help leadership make smarter decisions on what products and customer behaviors to cut or keep.
 
 💡 What I Wanted to Find Out:
