@@ -37,3 +37,5 @@ Copiers, on the other hand, are solid: high profit and manageable returns.
 📍 Why It Matters:
 This dashboard gives a clear view of where Superstore might be losing money — and where it’s winning. It’s all about making smarter, data-backed decisions on what to cut, what to double down on, and how to run leaner and smarter.
 
+see my Project here. https://public.tableau.com/views/WhattoCutandWhattoKeepSuperstoreProfitStrategy/SavingSuperstore?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
