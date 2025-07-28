@@ -1,48 +1,130 @@
-Saving Superstore: What to Cut and What to Keep
+# 📊 Saving Superstore – A Tableau BI Analysis Project
 
-This dashboard takes a close look at Superstore’s return data and profit margins to figure out what’s helping the bottom line — and what’s holding it back. The goal? Help leadership make smarter decisions on what products and customer behaviors to cut or keep.
+**Author:** Jordan Mulumulu  
 
-💡 What I Wanted to Find Out:
+**Tools Used:** Tableau Desktop, Excel  
 
-Which products are getting returned the most?
+**Dataset:** [[Superstore Sample Dataset](https://community.tableau.com/s/sample-superstore-data)](https://public.tableau.com/views/SavingSuperstoreATableauBIAnalysisProjectbyJordanMulumulu/ProductstoStopSelling?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-Who are the customers that keep sending stuff back?
+## 🧠 Project Objective
 
-How do return rates line up with profit margins across different product types?
+The goal of this project was to help a struggling retail superstore identify **where it loses and makes money**, **how to optimize its advertising**, and **which products and customers are affecting profitability** through returns.
 
-📊 What’s in the Dashboard:
+This was completed as part of my Business Intelligence training with TripleTen, using **real-world retail data** and Tableau.
 
-Product Return Rate: See which items are returned the most.
+---
 
-Customer Return Rate: Spot customers who return a lot.
+## 🔍 Analysis Breakdown
 
-Profit vs. Return Rate: Compare average return rates against profit to find high-risk, low-reward items.
+### 📌 Part 1: Profits & Losses
 
-Filters: Break things down by Region or Category to get a better look.
+**Questions Answered:**
 
-🛠️ Tools I Used:
+1. **What are the top 2 profit centers and 2 biggest loss-makers by dimension pair?**  
 
-Tableau Public
+    ➤ Identified **Sub-Category + Region** combinations using a heatmap.  
 
-A LEFT JOIN on Orders and Returns (linked by Order ID)
+    ✅ Most profitable: *Copiers in the West, Phones in the East*  
 
-A calculated field for return flag + return percentages
+    ❌ Biggest losses: *Binders in Central, Tables in East*
 
-🔎 What I Found:
+3. **Which products should be dropped?**  
 
-KI Adjustable-Height Table and Advantus Push Pins are some of the worst offenders on returns.
+    ➤ Products with the **lowest total profits** were flagged, like the *GBC DocuBind P400* and *Cubify CubeX 3D Printer*.
 
-A few customers return more than 6% of what they buy — that's a red flag.
+5. **Which sub-categories to keep vs cut?**  
+ 
+   ➤ Based on profit performance:
 
-Phones and Chairs stand out with high return rates and low profit — time to rethink those.
+    - **Keep:** Copiers, Phones, Accessories  
 
-Copiers, on the other hand, are solid: high profit and manageable returns.
+    - **Cut:** Tables, Bookcases, Supplies  
 
-📍 Why It Matters:
+---
 
-This dashboard gives a clear view of where Superstore might be losing money — and where it’s winning. It’s all about making smarter, data-backed decisions on what to cut, what to double down on, and how to run leaner and smarter.
+### 📌 Part 2: Advertising Strategy
 
-🚀 Check out the finished dashboard on Tableau Public:
+**Questions Answered:**
 
-https://public.tableau.com/views/WhattoCutandWhattoKeepSuperstoreProfitStrategy/SavingSuperstore?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+1. **Where and when should we advertise?**  
+ 
+   ➤ Selected **Top 10 State-Month pairs** based on profit trends.  
+
+   ✅ New York (Sept), California (Dec), Washington (March) were standouts.
+
+3. **How much should we spend?**  
+ 
+   ➤ Calculated **ad budgets** using Return on Ad Spend logic  
+ 
+   ➤ Willing to spend **up to 20% of average profit** in target months  
+
+   ➤ Budgets created for each top location-month combination.
+
+---
+
+### 📌 Part 3: Returned Items
+
+**Questions Answered:**
+
+1. **Which products are returned the most?**  
+
+   ➤ Created a calculated field for binary return values.  
+
+   ❗ Products like *Zebra GK420d Printer* had **100% return rates**.
+
+3. **Which customers have high return rates?**  
+
+   ➤ Customers like *Roland Murray* and *Hilary Holden* had **100% of their orders returned**.
+
+5. **Does return rate affect profitability?**  
+
+   ➤ Built a scatterplot comparing **return rate vs average profit by sub-category**.  
+
+   - **Copiers:** High profit, low returns = 🔥  
+
+   - **Machines/Supplies:** Low profit, high returns = 🚫
+
+---
+
+## ✅ Key Takeaways
+
+- **Focus growth** on profitable, stable categories like *Copiers* and *Phones*.  
+
+- **Cut losses** by dropping subcategories like *Tables* and *Bookcases*.  
+
+- **Invest wisely** in advertising — target high-profit state-months like *NY in Sept*.  
+
+- **Mitigate returns** by identifying high-return products/customers early.
+
+---
+
+## 🌐 Tableau Public Dashboard
+
+> 📍 [[View the full interactive dashboard here](https://public.tableau.com/app/profile/your_profile_name/viz/saving_superstore/YourDashboardName)](https://public.tableau.com/views/SavingSuperstoreATableauBIAnalysisProjectbyJordanMulumulu/ProductstoStopSelling?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+---
+
+## 💡 Skills Demonstrated
+
+- Data Cleaning & Joining  
+
+- Calculated Fields & Logical Expressions  
+
+- ROI & Profitability Analysis  
+
+- Dynamic Filtering & Color Encoding  
+
+- Data Storytelling with Tableau Story Points
+
+---
+
+## 📫 Let's Connect
+
+**LinkedIn:** www.linkedin.com/in/jordan-mulumulu
+**Email:** JMulumulu@gmail.com
+
+
+
+
+
 
