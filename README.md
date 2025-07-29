@@ -4,8 +4,6 @@
 
 **Tools Used:** Tableau Desktop, Excel  
 
-**Dataset:** [[Superstore Sample Dataset](https://community.tableau.com/s/sample-superstore-data)](https://public.tableau.com/views/SavingSuperstoreATableauBIAnalysisProjectbyJordanMulumulu/ProductstoStopSelling?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
 ## 🧠 Project Objective
 
 The goal of this project was to help a struggling retail superstore identify **where it loses and makes money**, **how to optimize its advertising**, and **which products and customers are affecting profitability** through returns.
@@ -98,10 +96,9 @@ This was completed as part of my Business Intelligence training with TripleTen, 
 
 ---
 
-## 🌐 Tableau Public Dashboard
+## 🌐 Tableau Public Dashboard - Project Link! 
 
-> 📍 [[View the full interactive dashboard here](https://public.tableau.com/app/profile/your_profile_name/viz/saving_superstore/YourDashboardName)](https://public.tableau.com/views/SavingSuperstoreATableauBIAnalysisProjectbyJordanMulumulu/ProductstoStopSelling?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
+> 📍 https://public.tableau.com/views/Book3_17534202216890/SavingSuperstoreProfitsAdsReturns?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 ---
 
 ## 💡 Skills Demonstrated
