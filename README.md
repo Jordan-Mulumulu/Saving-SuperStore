@@ -98,7 +98,7 @@ This was completed as part of my Business Intelligence training with TripleTen, 
 
 ## 🌐 Tableau Public Dashboard - Project Link! 
 
-> 📍 https://public.tableau.com/views/JordanMulumuluTableauSuperstore/SavingSuperStoreWhattoCutKeepandAdvertise?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+> 📍 https://public.tableau.com/views/SavingSuperStore_17538434393930/SavingSuperstoreProfitsAdsReturns?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 ---
 
 ## 💡 Skills Demonstrated
